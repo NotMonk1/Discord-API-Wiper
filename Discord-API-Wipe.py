@@ -46,7 +46,7 @@ async def clear_commands(token: str):
 
 if __name__ == "__main__":
     print ("This code does NOT log your bot token. If you dont trust it use DNSpy or a code editor")
-    print ("Discord API Wiper By NotMonk (@notmonk.idiot on discord)")
+    print ("Discord API Wiper By NotMonk (@notmonk.idi0t on discord)")
     token = input("Enter your bot token: ").strip()
     if not token:
         raise ValueError("No token provided.")
